@@ -10,4 +10,4 @@ Words are represented by numerical vectors. Given that the used corpus subset co
 <br/>French: the 200-dimensional <a href="http://fauconnier.github.io/">frWac2Vec</a> embeddings computed using Word2vec skip-gram approach on a 1.6 billion word corpus constructed from the Web limiting the crawl to the .fr domain.
 
 ### Sequence-to-sequence learning
-Encoder and decoder are build using Recurrent Neural Networks in order to create a seq2seq prediction model for machine translation. Then training, inference and evaluation functions are coded. PyTorch is the deep-learning framework used.
+Encoder and decoder are built using Recurrent Neural Networks in order to create a seq2seq prediction model for machine translation. Then training, inference and evaluation functions are coded. PyTorch is the deep-learning framework used.
